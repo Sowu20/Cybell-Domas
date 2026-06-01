@@ -1,26 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* --- COULEURS STRUCTURELLES (SURFACES) --- */
+  --background: #f9f9ff;
+  --foreground: #001b3c; 
+  
+  --surface: #f9f9ff;
+  --surface-dim: #c8dbff;
+  --surface-bright: #f9f9ff;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #f0f3ff;
+  --surface-container: #e7eeff;
+  --surface-container-high: #dee8ff;
+  --surface-container-highest: #d5e3ff;
+  --on-surface-variant: #5b403f;
+  --inverse-surface: #183153;
+  --inverse-on-surface: #ecf1ff;
+  --outline: #8f6f6e;
+  --outline-variant: #e4bebc;
+  --surface-tint: #bb152c;
+
+  /* --- COULEURS DE MARQUE (BRANDING) --- */
+  --primary: #b7102a; 
+  --on-primary: #ffffff;
+  --primary-container: #db313f;
+  --on-primary-container: #fffbff;
+  --inverse-primary: #ffb3b1;
+
+  --secondary: #835400;
+  --on-secondary: #ffffff;
+  --secondary-container: #fcab28;
+  --on-secondary-container: #694300;
+
+  --tertiary: #006290;
+  --on-tertiary: #ffffff;
+  --tertiary-container: #007bb4;
+  --on-tertiary-container: #fcfcff;
+
+  --error: #ba1a1a;
+  --on-error: #ffffff;
+  --error-container: #ffdad6;
+  --on-error-container: #93000a;
+
+  /* Éléments Fixes */
+  --primary-fixed: #ffdad8;
+  --primary-fixed-dim: #ffb3b1;
+  --on-primary-fixed: #410007;
+  --on-primary-fixed-variant: #92001c;
+  --secondary-fixed: #ffddb5;
+  --secondary-fixed-dim: #ffb957;
+  --on-secondary-fixed: #2a1800;
+  --on-secondary-fixed-variant: #643f00;
+  --tertiary-fixed: #cae6ff;
+  --tertiary-fixed-dim: #8dcdff;
+  --on-tertiary-fixed: #001e30;
+  --on-tertiary-fixed-variant: #004b70;
+
+  /* --- ATTRIBUTS DE THÈME DIRECTS (Pour garantir la compatibilité) --- */
+  --color-inverse-surface: var(--inverse-surface);
+  --color-inverse-on-surface: var(--inverse-on-surface);
+  --color-surface-dim: var(--surface-dim);
 }
 
-@theme inline {
+/* Version standard de configuration de thème pour Tailwind v4 sans faire planter l'IDE */
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  --color-surface: var(--surface);
+  --color-surface-dim: var(--surface-dim);
+  --color-surface-bright: var(--surface-bright);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-inverse-surface: var(--inverse-surface);
+  --color-inverse-on-surface: var(--inverse-on-surface);
+  
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
+  
+  --color-secondary: var(--secondary);
+  --color-on-secondary: var(--on-secondary);
+  --color-secondary-container: var(--secondary-container);
+  --color-on-secondary-container: var(--on-secondary-container);
+  
+  --color-tertiary: var(--tertiary);
+  --color-on-tertiary: var(--on-tertiary);
+  --color-tertiary-container: var(--tertiary-container);
+  --color-on-tertiary-container: var(--on-tertiary-container);
+
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --spacing-margin-desktop: 64px;
+  --spacing-margin-mobile: 16px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* --- RE-RÉGLAGES DE BASE --- */
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
+
+h1, .headline-xl { font-family: 'Montserrat', sans-serif; font-size: 48px; font-weight: 700; line-height: 56px; }
+h2, .headline-lg { font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 700; line-height: 40px; }
+h3, .headline-md { font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; line-height: 32px; }
+p, .body-md { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
