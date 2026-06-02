@@ -8,12 +8,12 @@ export default function Hero() {
         <div className="space-y-6">
           <div className="inline-flex items-center gap-2 bg-primary-container text-on-primary-container px-4 py-1 rounded-full font-body text-sm font-semibold">
             <span className="material-symbols-outlined text-[18px]">verified</span>
-            <span>10+ Ans dEngagement Social</span>
+            <span>30+ Ans d’Engagement Social</span>
           </div>
           
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Linnovation sociale : <br />
-            <span className="text-primary italic">Sinstruire en jouant</span>
+            L’innovation sociale : <br />
+            <span className="text-primary italic">S’instruire en jouant</span>
           </h1>
           
           <p className="font-body text-lg text-on-surface-variant max-w-xl">

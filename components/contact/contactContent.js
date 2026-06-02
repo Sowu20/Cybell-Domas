@@ -109,7 +109,7 @@ export default function ContactContent() {
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="font-body text-sm font-semibold text-on-surface-variant">Type dAtelier</label>
+                <label className="font-body text-sm font-semibold text-on-surface-variant">Type d’Atelier</label>
                 <select 
                   name="workshop"
                   value={formData.workshop}
@@ -245,12 +245,12 @@ export default function ContactContent() {
               <div className="pt-2 flex gap-2">
                 <span className="material-symbols-outlined text-primary text-2xl h-fit"><Quote /></span>
                 <p className="italic font-body text-sm text-on-surface-variant leading-relaxed">
-                  Notre mission est de transformer lapprentissage en une aventure passionnante. Maloko Games est né dune volonté doffrir des outils pédagogiques innovants qui captivent les jeunes tout en transmettant des savoirs essentiels.
+                  Notre mission est de transformer l’apprentissage en une aventure passionnante. Maloko Games est né d’une volonté d’offrir des outils pédagogiques innovants qui captivent les jeunes tout en transmettant des savoirs essentiels.
                 </p>
               </div>
 
               <a href="#" className="inline-flex items-center gap-1 text-primary font-body text-xs font-bold hover:underline pt-2">
-                En savoir plus sur lhistoire de lassociation
+                En savoir plus sur l’histoire de lassociation
                 <span className="material-symbols-outlined text-xs"><ArrowRight /></span>
               </a>
             </div>

@@ -32,7 +32,7 @@ export default function BannerImage() {
               <span className="material-symbols-outlined text-secondary text-[32px] p-3 bg-secondary/10 rounded-lg"><Users /></span>
               <div>
                 <h3 className="font-body font-semibold text-lg mb-1">Inclusion Sociale</h3>
-                <p className="text-on-surface-variant text-sm">Accessibilité universelle pour garantir quaucun enfant ne soit laissé de côté.</p>
+                <p className="text-on-surface-variant text-sm">Accessibilité universelle pour garantir qu’aucun enfant ne soit laissé de côté.</p>
               </div>
             </div>
             
@@ -40,7 +40,7 @@ export default function BannerImage() {
               <span className="material-symbols-outlined text-tertiary text-[32px] p-3 bg-tertiary/10 rounded-lg"><School /></span>
               <div>
                 <h3 className="font-body font-semibold text-lg mb-1">Formation & Accompagnement</h3>
-                <p className="text-on-surface-variant text-sm">Programmes de formation pour éducateurs et parents sur lusage du jeu comme levier.</p>
+                <p className="text-on-surface-variant text-sm">Programmes de formation pour éducateurs et parents sur l’usage du jeu comme levier.</p>
               </div>
             </div>
           </div>

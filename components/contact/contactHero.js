@@ -7,7 +7,7 @@ export default function ContactHero() {
           Contact & Registration
         </span>
         <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary leading-tight">
-          Prêt à apprendre en jouant ? Rejoignez laventure Maloko Games.
+          Prêt à apprendre en jouant ? Rejoignez l’aventure Maloko Games.
         </h1>
         <p className="font-body text-lg text-on-surface-variant max-w-2xl leading-relaxed">
           Inscrivez-vous pour nos prochaines sessions éducatives ou contactez notre équipe pour toute question sur nos outils pédagogiques.

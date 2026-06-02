@@ -13,10 +13,10 @@ export default function AboutContent() {
             </h2>
             <div className="h-1 w-16 bg-primary rounded-full"></div>
             <p className="font-body text-base text-on-surface-variant leading-relaxed">
-              LAssociation Cybell-Domas International est une organisation dédiée à la transformation de lapprentissage par le jeu (edutainment). Depuis plus de 10 ans, nous unissons des experts du monde entier pour concevoir des programmes et outils innovants capables de répondre aux enjeux éducatifs et sanitaires contemporains.
+              L’Association Cybell-Domas International est une organisation dédiée à la transformation de l’apprentissage par le jeu (edutainment). Depuis plus de 10 ans, nous unissons des experts du monde entier pour concevoir des programmes et outils innovants capables de répondre aux enjeux éducatifs et sanitaires contemporains.
             </p>
             <p className="font-body text-base text-on-surface-variant leading-relaxed">
-              À travers notre gamme emblématique de supports de jeu comme <strong>Maloko Games</strong>, nous favorisons le développement cognitif et linclusion sociale de chaque enfant, garantissant un accès joyeux et équitable à linstruction fondamentale et à la sensibilisation à la santé.
+              À travers notre gamme emblématique de supports de jeu comme <strong>Maloko Games</strong>, nous favorisons le développement cognitif et l’inclusion sociale de chaque enfant, garantissant un accès joyeux et équitable à l’instruction fondamentale et à la sensibilisation à la santé.
             </p>
             
             <div className="flex items-center gap-4 p-4 bg-surface-container rounded-lg border border-outline-variant/30">
@@ -52,7 +52,7 @@ export default function AboutContent() {
                 </div>
                 <h3 className="font-heading text-2xl font-bold text-foreground">Notre Vision Globale</h3>
                 <p className="font-body text-on-surface-variant text-base leading-relaxed">
-                  Nous croyons fermement que léducation et laccès aux connaissances de santé ne devraient jamais être une corvée. Notre objectif dici les prochaines années est détendre nos déploiements ludiques à plus de 500 structures scolaires et communautaires à léchelle internationale.
+                  Nous croyons fermement que l’éducation et l’accès aux connaissances de santé ne devraient jamais être une corvée. Notre objectif d’ici les prochaines années est détendre nos déploiements ludiques à plus de 500 structures scolaires et communautaires à l’échelle internationale.
                 </p>
               </div>
               <div className="border-t border-outline-variant/20 pt-4 flex gap-6 text-sm font-semibold text-tertiary">
@@ -103,7 +103,7 @@ export default function AboutContent() {
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground">Inclusion & Équité</h3>
               <p className="font-body text-sm text-on-surface-variant leading-relaxed">
-                Nous agissons pour quaucun enfant ne soit laissé de côté. Nos supports sadaptent aux contextes locaux et garantissent une accessibilité universelle.
+                Nous agissons pour qu’aucun enfant ne soit laissé de côté. Nos supports s’adaptent aux contextes locaux et garantissent une accessibilité universelle.
               </p>
             </div>
 
@@ -113,7 +113,7 @@ export default function AboutContent() {
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground">Impact Social Réel</h3>
               <p className="font-body text-sm text-on-surface-variant leading-relaxed">
-                Chaque projet, atelier ou jeu déployé vise des résultats concrets et mesurables sur le bien-être, la santé et le niveau dalphabétisation des jeunes.
+                Chaque projet, atelier ou jeu déployé vise des résultats concrets et mesurables sur le bien-être, la santé et le niveau d’alphabétisation des jeunes.
               </p>
             </div>
 
@@ -123,7 +123,7 @@ export default function AboutContent() {
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground">Innovation Ludique</h3>
               <p className="font-body text-sm text-on-surface-variant leading-relaxed">
-                Nous réinventons les codes de léducation populaire en fusionnant rigueur académique et mécaniques de jeu captivantes pour susciter lenvie dapprendre.
+                Nous réinventons les codes de l’éducation populaire en fusionnant rigueur académique et mécaniques de jeu captivantes pour susciter l’envie d’apprendre.
               </p>
             </div>
           </div>

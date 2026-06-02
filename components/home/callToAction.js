@@ -17,7 +17,7 @@ export default function CallToAction() {
               <div className="absolute -left-2.25 top-0 w-4 h-4 rounded-full bg-primary shadow-[0_0_15px_rgba(183,16,42,0.5)]"></div>
               <div className="text-primary-fixed-dim font-heading text-xl font-bold mb-1">2012</div>
               <h4 className="font-body font-semibold text-lg text-white mb-2">Conférence Skype Historique</h4>
-              <p className="text-surface-dim text-sm">Le point de départ dune collaboration internationale unissant des experts en éducation à travers le globe pour redéfinir lapprentissage ludique.</p>
+              <p className="text-surface-dim text-sm">Le point de départ d’une collaboration internationale unissant des experts en éducation à travers le globe pour redéfinir l’apprentissage ludique.</p>
             </div>
             
             <div className="relative pl-6 border-l-2 border-primary/40 py-2 opacity-75">
@@ -41,7 +41,7 @@ export default function CallToAction() {
       <section className="py-16 px-margin-desktop text-center bg-surface relative">
         <div className="max-w-3xl mx-auto p-12 bg-white rounded-[40px] shadow-2xl border border-outline-variant relative z-10">
           <h2 className="font-heading text-4xl font-bold mb-4">Rejoignez le mouvement</h2>
-          <p className="text-on-surface-variant font-body text-lg mb-8">Ensemble, faisons de léducation un droit accessible et joyeux pour chaque enfant.</p>
+          <p className="text-on-surface-variant font-body text-lg mb-8">Ensemble, faisons de l’éducation un droit accessible et joyeux pour chaque enfant.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-primary text-on-primary px-8 py-4 rounded-full font-heading font-semibold flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-md cursor-pointer">

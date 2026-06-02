@@ -77,7 +77,7 @@ export default function GameContent() {
                 Volume Spécial : Sport & Équilibre
               </h4>
               <p className="font-body text-sm text-on-surface-variant leading-relaxed">
-                Comment lactivity physique transforme notre biologie et renforce le système immunitaire.
+                Comment l’activité physique transforme notre biologie et renforce le système immunitaire.
               </p>
             </div>
           </div>

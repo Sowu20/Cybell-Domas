@@ -8,11 +8,11 @@ export default function GameHero() {
         {/* Colonne gauche : Contenu textuel */}
         <div className="space-y-6 text-left">
           <span className="inline-block bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full font-label-bold text-xs font-semibold uppercase tracking-wider">
-            Sinstruire en jouant
+            S’instruire en jouant
           </span>
           
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-foreground leading-tight">
-            Le Jeu Maloko Games : LÉducation réinventée
+            Le Jeu Maloko Games : L’Éducation réinventée
           </h1>
           
           <p className="font-body text-lg text-on-surface-variant max-w-xl leading-relaxed">
