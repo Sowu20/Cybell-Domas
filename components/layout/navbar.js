@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center px-6 md:px-margin-desktop py-4">
         <div className="flex items-center gap-6">
           <div className="font-heading text-2xl font-bold text-primary tracking-tight">
-            <Link href="/">MAKOLO-GAMES</Link>
+            <Link href="/">MALOKO-GAMES</Link>
           </div>
         </div>
 
