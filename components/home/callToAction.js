@@ -1,4 +1,5 @@
-import { Heart, HandHeart } from "lucide-react";
+import Link from "next/link";
+import { Eye, PhoneCall } from "lucide-react";
 
 export default function CallToAction() {
   return (
@@ -45,12 +46,16 @@ export default function CallToAction() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-primary text-on-primary px-8 py-4 rounded-full font-heading font-semibold flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-md cursor-pointer">
-              Faire un Don
-              <span className="material-symbols-outlined"><Heart /></span>
+              <Link href="/game">
+                Découvrir Notre jeu
+              </Link>
+              <span className="material-symbols-outlined"><Eye /></span>
             </button>
             <button className="bg-secondary-container text-on-secondary-container px-8 py-4 rounded-full font-heading font-semibold flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-md cursor-pointer">
-              Devenir Bénévole
-              <span className="material-symbols-outlined"><HandHeart /></span>
+              <Link href="/contact">
+                Contactez-Nous
+              </Link>
+              <span className="material-symbols-outlined"><PhoneCall /></span>
             </button>
           </div>
         </div>

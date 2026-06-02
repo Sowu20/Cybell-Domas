@@ -1,4 +1,5 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Eye } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Hero() {
@@ -23,11 +24,16 @@ export default function Hero() {
           
           <div className="flex flex-wrap gap-4 pt-2">
             <button className="bg-primary text-on-primary px-6 py-4 rounded-xl font-heading font-semibold shadow-lg hover:shadow-primary/20 transition-all flex items-center gap-2">
-              Découvrir Maloko
+              <Link href="/game">
+                Découvrir Maloko
+              </Link>
               <span className="material-symbols-outlined"><ArrowRight /></span>
             </button>
             <button className="border-2 border-primary text-primary px-6 py-4 rounded-xl font-heading font-semibold hover:bg-primary/5 transition-all">
-              Notre Vision
+              <Link href="/about">
+                Notre Vision
+              </Link>
+              <span className="material-symbols-outlined"><Eye /></span>
             </button>
           </div>
         </div>
