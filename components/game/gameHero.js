@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function GameHero() {
   return (
@@ -21,10 +22,10 @@ export default function GameHero() {
           
           <div className="flex flex-wrap gap-4 pt-2">
             <button className="bg-primary text-on-primary px-6 py-3 rounded-lg font-label-bold text-sm font-semibold shadow-md hover:scale-105 transition-transform cursor-pointer">
-              Explorer les Volumes
+              <Link href="/volume">Explorer les Volumes</Link>
             </button>
             <button className="border-2 border-tertiary text-tertiary px-6 py-3 rounded-lg font-label-bold text-sm font-semibold hover:bg-tertiary hover:text-on-tertiary transition-all cursor-pointer">
-              Voir la Démo
+              <Link href="/demo">Voir la Démo</Link>
             </button>
           </div>
         </div>
