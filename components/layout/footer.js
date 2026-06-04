@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="w-full py-12 px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-6 bg-inverse-surface text-inverse-on-surface">
       <div className="space-y-4">
-        <div className="font-heading text-xl font-bold text-secondary-container">CYBELL-DOMAS</div>
+        <div className="font-heading text-xl font-bold text-secondary-container">MALOKO GAMES</div>
         <p className="font-body text-sm text-surface-dim/80">
           © 2026 Association Cybell-Domas International. S’instruire en jouant.
         </p>
