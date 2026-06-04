@@ -57,14 +57,8 @@
   --tertiary-fixed-dim: #8dcdff;
   --on-tertiary-fixed: #001e30;
   --on-tertiary-fixed-variant: #004b70;
-
-  /* --- ATTRIBUTS DE THÈME DIRECTS (Pour garantir la compatibilité) --- */
-  --color-inverse-surface: var(--inverse-surface);
-  --color-inverse-on-surface: var(--inverse-on-surface);
-  --color-surface-dim: var(--surface-dim);
 }
 
-/* Version standard de configuration de thème pour Tailwind v4 sans faire planter l'IDE */
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -79,11 +73,14 @@
   --color-surface-container-highest: var(--surface-container-highest);
   --color-inverse-surface: var(--inverse-surface);
   --color-inverse-on-surface: var(--inverse-on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
   
   --color-primary: var(--primary);
   --color-on-primary: var(--on-primary);
   --color-primary-container: var(--primary-container);
   --color-on-primary-container: var(--on-primary-container);
+  --color-primary-fixed: var(--primary-fixed);
+  --color-on-primary-fixed: var(--on-primary-fixed);
   
   --color-secondary: var(--secondary);
   --color-on-secondary: var(--on-secondary);
@@ -94,15 +91,22 @@
   --color-on-tertiary: var(--on-tertiary);
   --color-tertiary-container: var(--tertiary-container);
   --color-on-tertiary-container: var(--on-tertiary-container);
+  --color-on-tertiary-fixed: var(--on-tertiary-fixed);
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-base: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 40px;
+  --spacing-xl: 64px;
+  --spacing-gutter: 16px;
+  --spacing-margin-desktop: 64px;
+  --spacing-margin-mobile: 16px;
 
   --font-heading: 'Montserrat', sans-serif;
   --font-body: 'Inter', sans-serif;
-
-  --spacing-margin-desktop: 64px;
-  --spacing-margin-mobile: 16px;
 }
 
-/* --- RE-RÉGLAGES DE BASE --- */
 body {
   background-color: var(--background);
   color: var(--foreground);
@@ -110,7 +114,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, .headline-xl { font-family: 'Montserrat', sans-serif; font-size: 48px; font-weight: 700; line-height: 56px; }
-h2, .headline-lg { font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 700; line-height: 40px; }
-h3, .headline-md { font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; line-height: 32px; }
-p, .body-md { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
+/* Fallbacks globaux et classes utilitaires */
+h1 { font-family: 'Montserrat', sans-serif; font-size: 48px; font-weight: 700; line-height: 56px; }
+h2 { font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 700; line-height: 40px; }
+h3 { font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 600; line-height: 32px; }
+p { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
+
+/* Effet de survol des cartes */
+.card-hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover-effect:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(0, 27, 60, 0.15);
+}
