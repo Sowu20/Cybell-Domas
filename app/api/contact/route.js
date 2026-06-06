@@ -9,7 +9,7 @@ export async function POST(request) {
 
         const response = await resend.emails.send({
             from: "MALOKO GAMES <onboarding@resend.dev>",
-            to: ["sowukelly67@gmail.com"],
+            to: ["cybelldomasinternational@yahoo.fr"],
             subject: "Nouvelle inscription",
             html: `
                 <div style="font-family: sans-serif; padding: 20px; color: #001b3c;">
