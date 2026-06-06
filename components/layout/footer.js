@@ -45,7 +45,13 @@ export default function Footer() {
       <div className="space-y-4">
         <h5 className="font-body text-sm font-bold text-white uppercase tracking-wider">Réseaux Sociaux</h5>
         <div className="grid grid-cols-2 gap-2">
-          <Link className="font-body text-sm text-surface-dim hover:text-secondary-container transition-colors" href="https://www.youtube.com/@cybell-santesinstruireenjo4219"><FaYoutube />YouTube</Link>
+          <Link 
+            className="flex items-center gap-2 font-body text-sm text-surface-dim hover:text-secondary-container transition-colors" 
+            href="https://www.youtube.com/@cybell-santesinstruireenjo4219"
+          >
+            <FaYoutube className="text-xl" />
+            <span>YouTube</span>
+          </Link>
         </div>
       </div>
     </footer>
