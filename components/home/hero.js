@@ -46,11 +46,11 @@ export default function Hero() {
           <div className="relative w-full max-w-md md:max-w-full h-112.5 rounded-3xl border-4 border-white shadow-2xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-500">
             <Image 
               alt="Interaction Cybell-Domas" 
-              src="/images/home1.png"
+              src="/images/home3.jpeg"
               fill
               className="object-cover"
               sizes="(max-w-768px) 100vw, 50vw"
-              priority // Permet de charger l'image du Hero en priorité absolue (LCP)
+              priority
             />
           </div>
         </div>

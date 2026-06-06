@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
@@ -12,7 +13,13 @@ export default function Navbar() {
   return (
     <header className="w-full sticky top-0 z-50 bg-surface border-b border-outline-variant shadow-sm">
       <div className="flex justify-between items-center px-6 md:px-margin-desktop py-4">
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-3">
+          <Image
+            src="/logo/logo.jpg"
+            alt="Maloko Games Logo"
+            width={40}
+            height={40}
+          />
           <div className="font-heading text-2xl font-bold text-primary tracking-tight">
             <Link href="/">MALOKO-GAMES</Link>
           </div>

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { BarChart3, Share2, Mail, PhoneCall } from "lucide-react";
+import { FaYoutube } from "react-icons/fa";
 
 
 export default function Footer() {
@@ -11,10 +13,10 @@ export default function Footer() {
         </p>
         <div className="flex gap-4 mt-4">
           <span className="material-symbols-outlined text-secondary-container hover:text-white cursor-pointer transition-colors">
-            social_leaderboard
+            <BarChart3 />
           </span>
           <span className="material-symbols-outlined text-secondary-container hover:text-white cursor-pointer transition-colors">
-            share
+            <Share2 />
           </span>
         </div>
       </div>
@@ -24,22 +26,23 @@ export default function Footer() {
           Contactez-nous
         </h5>
         <div className="space-y-2">
-          <a className="block font-body text-sm text-surface-dim hover:text-secondary-container underline transition-colors" href="mailto:malokogames@yahoo.fr">
-            malokogames@yahoo.fr
-          </a>
-          <a className="block font-body text-sm text-surface-dim hover:text-secondary-container underline transition-colors" href="tel:+33631737905">
-            +33 631 737 905
-          </a>
+          <Link className="block font-body text-sm text-surface-dim hover:text-secondary-container transition-colors" href="mailto:cybelldomasinternational@yahoo.fr">
+            <span className="material-symbols-outlined text-secondary-container hover:text-white cursor-pointer transition-colors">
+              <Mail />cybelldomasinternational@yahoo.fr
+            </span>
+          </Link>
+          <Link className="block font-body text-sm text-surface-dim hover:text-secondary-container transition-colors" href="tel:+33631737905">
+            <span className="material-symbols-outlined text-secondary-container hover:text-white cursor-pointer transition-colors">
+              <PhoneCall />+33 6 31 73 79 05
+            </span>
+          </Link>
         </div>
       </div>
 
       <div className="space-y-4">
         <h5 className="font-body text-sm font-bold text-white uppercase tracking-wider">Réseaux Sociaux</h5>
         <div className="grid grid-cols-2 gap-2">
-          <Link className="font-body text-sm text-surface-dim hover:text-secondary-container underline transition-colors" href="#">Facebook</Link>
-          <Link className="font-body text-sm text-surface-dim hover:text-secondary-container underline transition-colors" href="#">LinkedIn</Link>
-          <Link className="font-body text-sm text-surface-dim hover:text-secondary-container underline transition-colors" href="#">Instagram</Link>
-          <Link className="font-body text-sm text-surface-dim hover:text-secondary-container underline transition-colors" href="#">YouTube</Link>
+          <Link className="font-body text-sm text-surface-dim hover:text-secondary-container transition-colors" href="https://www.youtube.com/@cybell-santesinstruireenjo4219"><FaYoutube />YouTube</Link>
         </div>
       </div>
     </footer>

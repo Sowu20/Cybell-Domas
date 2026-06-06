@@ -34,7 +34,7 @@ export default function GameHero() {
           <div className="absolute -inset-4 bg-primary/10 rounded-xl blur-2xl group-hover:bg-primary/20 transition-all duration-500"></div>
           <div className="relative w-full h-full rounded-xl shadow-2xl border-2 border-white overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-500 bg-surface-container-low">
             <Image 
-              src="/images/game.png"
+              src="/images/game2.png"
               alt="Maloko Games Deck"
               fill
               priority

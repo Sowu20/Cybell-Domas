@@ -31,7 +31,7 @@ export default function AboutContent() {
           <div className="w-full relative h-96 rounded-2xl shadow-xl overflow-hidden border-4 border-white">
             <Image 
               alt="Présentation de l'Association Cybell-Domas" 
-              src="/images/about.png"
+              src="/images/about2.jpg"
               fill
               className="object-cover"
               sizes="(max-w-768px) 100vw, 50vw"

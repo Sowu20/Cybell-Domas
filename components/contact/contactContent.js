@@ -230,15 +230,15 @@ export default function ContactContent() {
           <div className="bg-surface-container-lowest p-8 rounded-xl border-2 border-primary shadow-sm relative overflow-hidden">
             <div className="absolute top-0 right-0 w-24 h-24 bg-primary-container/5 rounded-bl-full pointer-events-none"></div>
             <div className="relative z-10 space-y-4">
-              <h3 className="font-heading text-xl font-bold text-primary">Le Mot de la Fondatrice</h3>
+              <h3 className="font-heading text-xl font-bold text-primary">Le Mot du Fondateur</h3>
               
               <div className="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
                 <div className="relative w-24 h-24 rounded-md overflow-hidden shrink-0 border-2 border-surface-container-high shadow-xs">
-                  <Image src="/images/contact.jpeg" alt="Mme. Cybell Domas" fill className="object-cover" />
+                  <Image src="/images/contact1.jpeg" alt="Mme. Cybell Domas" fill className="object-cover" />
                 </div>
                 <div className="text-center sm:text-left">
-                  <p className="font-heading text-sm font-bold text-foreground">Mme. Cybell Domas</p>
-                  <p className="font-body text-xs text-secondary font-semibold">Présidente Fondatrice</p>
+                  <p className="font-heading text-sm font-bold text-foreground">Mr. Louis-Martial N’Doumbe</p>
+                  <p className="font-body text-xs text-secondary font-semibold">Président Fondateur</p>
                 </div>
               </div>
 
@@ -249,10 +249,10 @@ export default function ContactContent() {
                 </p>
               </div>
 
-              <a href="#" className="inline-flex items-center gap-1 text-primary font-body text-xs font-bold hover:underline pt-2">
+              {/* <a href="#" className="inline-flex items-center gap-1 text-primary font-body text-xs font-bold hover:underline pt-2">
                 En savoir plus sur l’histoire de lassociation
                 <span className="material-symbols-outlined text-xs"><ArrowRight /></span>
-              </a>
+              </a> */}
             </div>
           </div>
 

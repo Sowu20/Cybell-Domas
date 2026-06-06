@@ -52,14 +52,14 @@ export default function VolumeCard({ volume }) {
           </div>
 
           {/* Bouton d'action sublimé */}
-          <button className={`w-full font-heading font-semibold text-sm py-3 px-4 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 group/btn cursor-pointer shadow-sm active:scale-[0.98] ${
+          {/* <button className={`w-full font-heading font-semibold text-sm py-3 px-4 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 group/btn cursor-pointer shadow-sm active:scale-[0.98] ${
             volume.isSpecial 
               ? "bg-secondary-container text-on-secondary-container hover:bg-secondary-container/90" 
               : "bg-primary text-on-primary hover:bg-primary/90"
           } ${volume.btnClass}`}>
             <span>{volume.isSpecial ? "Voir l'édition limitée" : "Découvrir le volume"}</span>
             <BtnIcon className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
-          </button>
+          </button> */}
         </div>
       </div>
     </article>
