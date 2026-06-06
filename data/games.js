@@ -8,7 +8,7 @@ export const GameData = [
     description: "Les bases de l'hygiène, de la nutrition et du bien-être quotidien pour toute la famille.",
     category: "Français & Lecture",
     icon: BookOpen,
-    image: "/images/", 
+    image: "/images/demo3.png", 
     color: "primary",
     gridSpan: "md:col-span-8" 
   },
@@ -19,7 +19,7 @@ export const GameData = [
     description: "L'impact de notre entourage sur notre santé.",
     category: "Mathématiques",
     icon: Brain,
-    image: "/images/",
+    image: "/images/demo4.png",
     color: "tertiary",
     gridSpan: "md:col-span-4"
   },
@@ -30,7 +30,7 @@ export const GameData = [
     description: "Mieux comprendre pour mieux accompagner.",
     category: "Santé & Hygiène",
     icon: Activity,
-    image: "/images/",
+    image: "/images/about.png",
     color: "secondary",
     gridSpan: "md:col-span-4" 
   }
