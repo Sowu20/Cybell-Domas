@@ -27,13 +27,16 @@ export default function Footer() {
         </h5>
         <div className="space-y-2">
           <Link className="block font-body text-sm text-surface-dim hover:text-secondary-container transition-colors" href="mailto:cybelldomasinternational@yahoo.fr">
-            <span className="material-symbols-outlined text-secondary-container hover:text-white cursor-pointer transition-colors">
-              <Mail />cybelldomasinternational@yahoo.fr
+            <span className="flex items-center gap-2 text-secondary-container hover:text-white cursor-pointer transition-colors">
+              <Mail className="w-4 h-4" /> {/* Optionnel : ajuster la taille de l'icône si besoin */}
+              <span>cybelldomasinternational@yahoo.fr</span>
             </span>
           </Link>
+          
           <Link className="block font-body text-sm text-surface-dim hover:text-secondary-container transition-colors" href="tel:+33631737905">
-            <span className="material-symbols-outlined text-secondary-container hover:text-white cursor-pointer transition-colors">
-              <PhoneCall />+33 6 31 73 79 05
+            <span className="flex items-center gap-2 text-secondary-container hover:text-white cursor-pointer transition-colors">
+              <PhoneCall className="w-4 h-4" />
+              <span>+33 6 31 73 79 05</span>
             </span>
           </Link>
         </div>
